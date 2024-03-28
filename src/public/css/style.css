@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #494747;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: aliceblue;
+    margin: 0;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+header button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+div>div {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+
+}
+
+div h2 {
+    margin-top: 0;
+}
+
+div button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a[href^="/products?page="] {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+
+a[href^="/products?page="]:hover {
+    background-color: #45a049;
+}
+
+a[href^="/products?page="]:active {
+    background-color: #3e8e41;
+}
+
+
+footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #494747;
+
+}
